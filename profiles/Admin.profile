@@ -3181,6 +3181,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Do_not_move_to_UATcase__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.EngineeringReqNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
