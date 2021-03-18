@@ -312,15 +312,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Big__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>This is a description. Replace this: DXFormat123Dev</description>
-        <externalId>false</externalId>
-        <label>BigMOD</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
