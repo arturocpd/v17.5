@@ -187,6 +187,7 @@
         <externalId>false</externalId>
         <label>Dinner Type</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -203,18 +204,34 @@
                     <default>false</default>
                     <label>Partial</label>
                 </value>
+                <value>
+                    <fullName>High Touch/High Urgency</fullName>
+                    <default>false</default>
+                    <label>High Touch/High Urgency</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>External_Auto__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External Auto</label>
         <length>30</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FLS_Test_Dinner_PS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FLS Test Dinner PS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>LateDinner__c</fullName>
@@ -222,7 +239,17 @@
         <description>Description New</description>
         <externalId>false</externalId>
         <label>LateDinner</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Nested_Field_Test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Nested Field Test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -230,6 +257,7 @@
         <externalId>false</externalId>
         <label>Picklist Dinner Table</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -254,6 +282,7 @@
         <externalId>false</externalId>
         <label>Picklist Dinner</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -280,9 +309,9 @@
         <externalId>false</externalId>
         <label>Point of contact</label>
         <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Dinners</relationshipLabel>
         <relationshipName>Dinners</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>true</trackTrending>
         <type>Lookup</type>
@@ -481,7 +510,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
