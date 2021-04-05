@@ -12,9 +12,5 @@
         <members>AR_Custom_Label_from_Dev3</members>
         <name>CustomLabel</name>
     </types>
-    <types>
-        <members>es</members>
-        <name>Translations</name>
-    </types>
     <version>51.0</version>
 </Package>
