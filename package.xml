@@ -8,9 +8,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>AR_Custom_Label</members>
-        <members>AR_Custom_Label_from_Dev3</members>
-        <name>CustomLabel</name>
+        <members>es</members>
+        <name>Translations</name>
     </types>
     <version>51.0</version>
 </Package>
