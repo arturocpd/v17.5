@@ -4706,7 +4706,35 @@
         <fullName>Record_Type</fullName>
         <active>true</active>
         <businessProcess>Support Process</businessProcess>
+        <compactLayoutAssignment>New_Default_Compact</compactLayoutAssignment>
         <label>Record Type</label>
+        <picklistValues>
+            <picklist>CI_Picklist_Test__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FFF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GGG</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Category__c</picklist>
             <values>
@@ -8048,6 +8076,39 @@
             </values>
             <values>
                 <fullName>Zero Inventory</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_Type_2</fullName>
+        <active>true</active>
+        <businessProcess>Support Process</businessProcess>
+        <label>Record Type 2</label>
+        <picklistValues>
+            <picklist>CI_Picklist_Test__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FFF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GGG</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
