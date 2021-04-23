@@ -28,6 +28,10 @@
             <translation></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>High Touch/High Urgency</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Partial</masterLabel>
             <translation></translation>
         </picklistValues>
