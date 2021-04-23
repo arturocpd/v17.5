@@ -187,6 +187,7 @@
         <externalId>false</externalId>
         <label>Dinner Type</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
@@ -202,6 +203,11 @@
                     <fullName>Partial</fullName>
                     <default>false</default>
                     <label>Partial</label>
+                </value>
+                <value>
+                    <fullName>High Touch/High Urgency</fullName>
+                    <default>false</default>
+                    <label>High Touch/High Urgency</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -481,7 +487,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
