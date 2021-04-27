@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner__c.Dinner_Type__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Dinner__c-da</members>
-        <members>Dinner__c-en_US</members>
-        <members>Dinner__c-es</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>cs</members>
-        <members>da</members>
-        <members>en_US</members>
-        <members>es</members>
-        <members>fi</members>
-        <members>it</members>
-        <name>Translations</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
     <version>51.0</version>
 </Package>
