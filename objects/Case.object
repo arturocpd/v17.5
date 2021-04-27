@@ -4594,7 +4594,7 @@
     <fields>
         <fullName>Test_env_variables__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Replace this {!Environment.TEST-ENV} with the corresponding value.</description>
+        <description>Replace this Dev1 with the corresponding value.</description>
         <externalId>false</externalId>
         <label>Test env variables</label>
         <trackFeedHistory>false</trackFeedHistory>
