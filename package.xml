@@ -5,9 +5,5 @@
         <members>AppleWatchTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>Case.Test_env_variables__c</members>
-        <name>CustomField</name>
-    </types>
     <version>51.0</version>
 </Package>
