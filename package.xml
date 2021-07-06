@@ -5,5 +5,9 @@
         <members>AppleWatchTest</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>TTT_Custom_Permission_Test</members>
+        <name>PermissionSet</name>
+    </types>
     <version>51.0</version>
 </Package>
