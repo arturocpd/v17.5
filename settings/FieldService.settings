@@ -4,6 +4,7 @@
     <doesShareSaParentWoWithAr>false</doesShareSaParentWoWithAr>
     <doesShareSaWithAr>false</doesShareSaWithAr>
     <enableWorkOrders>false</enableWorkOrders>
+    <enableWorkPlansAutoGeneration>false</enableWorkPlansAutoGeneration>
     <fieldServiceNotificationsOrgPref>false</fieldServiceNotificationsOrgPref>
     <fieldServiceOrgPref>true</fieldServiceOrgPref>
     <isGeoCodeSyncEnabled>false</isGeoCodeSyncEnabled>
